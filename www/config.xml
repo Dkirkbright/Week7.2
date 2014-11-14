@@ -16,5 +16,7 @@
     <author href="https://build.phonegap.com" email="support@phonegap.com">
         Hardeep Shoker 
     </author>
-<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+
+	<gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+	
 </widget>

@@ -15,6 +15,7 @@ $(document).on("pagecreate","#pageone",function()
 function random()
 { 
 	var randy = !Math.round(Math.random()); 
+	
 	alert(randy);      
 	return randy;	
 }
