@@ -4,10 +4,6 @@ $(document).on("pagecreate","#pageone",function()
 {
   	$('#taptruefalse').on("tap", function() {
 		random();
-	//beep three times
-	navigator.notification.beep(3);
-	//vibrate for 2000 milliseconds 
-	navigator.notification.vibrate(2000);
 	});
 	
 });
@@ -15,7 +11,10 @@ $(document).on("pagecreate","#pageone",function()
 function random()
 { 
 	var randy = !Math.round(Math.random()); 
-	
-	alert(randy);      
+	//alert(randy);
+	//beep three times
+	navigator.notification.beep(3);
+	//vibrate for 2000 milliseconds 
+	//navigator.notification.vibrate(2000);    
 	return randy;	
 }
