@@ -6,15 +6,13 @@ $(document).on("pagecreate","#pageone",function()
 		random();
 	});
 	
-	
-
-	
-	
 });
 
 function random()
 { 
 	var randy = !Math.round(Math.random()); 
+	//beep three time 
+	navigator.notification.beep(3);	
 	alert(randy);      
 	return randy;	
 }
